@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.container{
+    background-color: rgb(154, 21, 112);
+    display: flex;
+    height: 40vh;
+    margin-top: 2%;
+}
+.image{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.name{
+    font-size: 30px;
+}
+.info{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10%;
+    font-size: 20px;
+    word-spacing: 3px;
+    opacity: 0;
+    margin-bottom: 5%;
+    transition: 1s;
+}
+.info_content:hover .info{
+    opacity:100;
+}
+.discoveries{
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: 1s;
+}
+.discoveries_content:hover .discoveries{
+    opacity:100;
+}
+.invention{
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: 1s;
+}
+.invention_content:hover .invention{
+    opacity:100;
+}
